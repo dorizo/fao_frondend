@@ -16,8 +16,6 @@ import kehadirannonmitra from '../../assets/illustation/kunjunganmitranon.svg';
 
 import listMitra from '../../assets/illustation/listmitra.svg';
 import gesn from '../../assets/logo/logo.png';
-import lemineral from '../../assets/logo/le-minerale.png';
-import adupi from '../../assets/logo/adupi.png';
 import useAuth from '../../hooks/useAuth';
 import Akun from '../Akun';
 
@@ -40,8 +38,6 @@ export default function FasilitatorHome() {
           <Box style={{background: '#35a4ed'  }} position="static">
             <div style={{ display: 'flex', alignItems: 'center', marginLeft: 10 }}>
               <img alt="gesn logo" width={80} src={gesn} style={{ marginRight: 2 }} />
-              <img alt="adupi logo" width={40} src={adupi} style={{ marginRight: 2 }} />
-              <img alt="lemineral logo" width={60} src={lemineral} style={{ marginRight: 2 }} />
             
             </div>
             <Toolbar sx={{color:"#FFFFFF"}}>

@@ -76,7 +76,7 @@ export default function Login() {
         <Container maxWidth="sm">
           <ContentStyle>
             <Typography variant="h4" gutterBottom>
-              Sign in to Adupi Bank Sampah
+              Sign in to BOTUNA
             </Typography>
             <Typography sx={{ color: 'text.secondary', mb: 5 }}>Enter your details below.</Typography>
             <LoginForm />

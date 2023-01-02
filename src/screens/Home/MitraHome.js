@@ -13,14 +13,12 @@ import * as React from 'react';
 import { useQuery } from 'react-query';
 import { useNavigate } from 'react-router-dom';
 import { GET_SELF_MITRA } from '../../api/mitra';
-import menuAnggota from '../../assets/illustation/TambahSupplier.svg';
-import menuBeli from '../../assets/illustation/pembelian.svg';
-import menuJual from '../../assets/illustation/penjualan.svg';
-import menuMasalah from '../../assets/illustation/Masalah.svg';
+import menuAnggota from '../../assets/fao/4.png';
+import menuBeli from '../../assets/fao/1.png';
+import menuJual from '../../assets/fao/2.png';
+import menuMasalah from '../../assets/fao/3.png';
 import menuAlat from '../../assets/illustation/Alat.svg';
-import gesn from '../../assets/logo/logo.png';
-import lemineral from '../../assets/logo/le-minerale.png';
-import adupi from '../../assets/logo/adupi.png';
+import gesn from '../../assets/fao/logo.png';
 import support from '../../assets/illustation/support.svg';
 import Akun from '../Akun';
 import Transaksi from '../Transaksi';
@@ -77,8 +75,6 @@ export default function MitraHome() {
             <Box style={{background: '#35a4ed'  }} position="static">
             <div style={{ display: 'flex', alignItems: 'center', marginLeft: 10 }}>
               <img alt="gesn logo" width={80} src={gesn} style={{ marginRight: 2 }} />
-              <img alt="adupi logo" width={40} src={adupi} style={{ marginRight: 2 }} />
-              <img alt="lemineral logo" width={60} src={lemineral} style={{ marginRight: 2 }} />
             
             </div>
             <Toolbar sx={{color:"#FFFFFF"}}>
@@ -111,7 +107,7 @@ export default function MitraHome() {
               <Grid key={1} item xs={12}>
                 <Typography variant="h6">Selamat Datang,</Typography>
                 <Typography variant="h6">{self?.nama}</Typography>
-                <Typography>Selamat bergabung sebagai mitra</Typography>  
+                <Typography>Selamat bergabung</Typography>  
               </Grid>
            
             </Grid>

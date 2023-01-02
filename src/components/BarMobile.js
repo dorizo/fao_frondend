@@ -36,8 +36,6 @@ export default function BarMobile({ title }) {
             </Typography>
             
             <img alt="adupi logo" width={80} src={gesn} style={{ marginRight: 2 }} />
-            <img alt="adupi logo" width={40} src={adupi} style={{ marginRight: 2 }} />
-            <img alt="adupi logo" width={60} src={lemineral} style={{ marginRight: 2 }} />
           </Toolbar>
         </AppBar>
       </Box>

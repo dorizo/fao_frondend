@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import { useTheme } from '@mui/material/styles';
 import { Box } from '@mui/material';
-import logo from '../assets/logo/logo-black.png';
+import logo from '../assets/logo/botuna.png';
 
 // ----------------------------------------------------------------------
 
